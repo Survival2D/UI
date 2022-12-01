@@ -3,11 +3,46 @@
   <SolutionFolder>
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
+        <Folder Name="Common">
+          <Image Name="square_rounded.png" />
+          <Image Name="trapezoid.png" />
+        </Folder>
+        <Folder Name="Font">
+          <TTF Name="Roboto-Bold.ttf" />
+          <TTF Name="Roboto-Regular.ttf" />
+        </Folder>
+        <Folder Name="Game">
+          <Image Name="bullet_trail.png" />
+          <Image Name="loot-weapon-fists.png" />
+          <Folder Name="Item">
+            <Image Name="loot_ammo.png" />
+            <Image Name="loot_chest.png" />
+            <Image Name="loot_gun.png" />
+            <Image Name="loot_health_care.png" />
+            <Image Name="loot_helmet.png" />
+            <Image Name="loot_outer.png" />
+          </Folder>
+          <Folder Name="Obstacle">
+            <Image Name="crate.png" />
+            <Image Name="crate_residue.png" />
+            <Image Name="stone_1.png" />
+            <Image Name="stone_2.png" />
+            <Image Name="tree.png" />
+            <Image Name="tree_residue.png" />
+            <Image Name="wall.png" />
+          </Folder>
+          <Folder Name="Player">
+            <Image Name="circle.png" />
+            <Image Name="dead_blood.png" />
+            <Image Name="gun_1.png" />
+          </Folder>
+        </Folder>
         <Project Name="HomeScene.csd" Type="Scene" />
         <Project Name="LobbyScene.csd" Type="Scene" />
         <Project Name="LoginScene.csd" Type="Scene" />
         <Project Name="MatchScene.csd" Type="Scene" />
         <Project Name="MiniMapUI.csd" Type="Layer" />
+        <Project Name="ResultGUI.csd" Type="Layer" />
       </RootFolder>
     </Group>
   </SolutionFolder>
